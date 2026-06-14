@@ -7,7 +7,7 @@ import MainLayout from './app/layouts/MainLayout';
 // Pages
 import DashboardPage from './features/dashboard/pages/DashboardPage';
 import HistoryPage from './features/history/pages/HistoryPage';
-import LogsPage from './features/logs/pages/LogsPage';
+import LogsPage from './features/logs/pages/LogsPage.tsx';
 import MachinesPage from './features/machines/pages/MachinesPage';
 import LoginPage from './features/auth/pages/LoginPage';
 import SettingsPage from './features/settings/pages/SettingsPage';
