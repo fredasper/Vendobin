@@ -1,0 +1,22 @@
+{
+  "name": "vendobin-admin-platform",
+  "version": "1.0.0",
+  "description": "VENDOBIN IoT Admin Platform - Production-ready full-stack application",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w frontend\" \"npm run dev -w backend\"",
+    "build": "npm run build -w frontend && npm run build -w backend",
+    "preview": "npm run preview -w frontend",
+    "lint": "npm run lint -w frontend && npm run lint -w backend",
+    "type-check": "npm run type-check -w frontend && npm run type-check -w backend",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "prettier": "^3.0.0"
+  }
+}
