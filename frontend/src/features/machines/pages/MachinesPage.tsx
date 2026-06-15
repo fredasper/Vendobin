@@ -37,7 +37,7 @@ const initialHistory: ComponentHistoryItem[] = [
 ];
 
 export default function MachinesPage() {
-  const [status, setStatus] = useState<MachineStatus>('online');
+  const [status, setStatus] = useState<MachineStatus>('offline');
   const [pendingAction, setPendingAction] = useState<MachineAction | null>(null);
   const [componentHistory, setComponentHistory] = useState<ComponentHistoryItem[]>(initialHistory);
 
@@ -108,7 +108,7 @@ export default function MachinesPage() {
                       Last Seen
                     </Typography>
                     <Typography variant="h6" sx={{ fontWeight: 700 }}>
-                      2 mins ago
+                      7hrs ago
                     </Typography>
                   </Paper>
                 </Grid>

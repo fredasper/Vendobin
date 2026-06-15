@@ -88,7 +88,7 @@ export default function LiveMachineStatus() {
 
               <Box sx={{ display: 'flex', justifyContent: 'space-between', gap: 2, alignItems: 'center' }}>
                 <Typography variant="body2">WiFi Status</Typography>
-                <Chip label="CONNECTED" size="small" sx={{ backgroundColor: '#4CAF50', color: 'white' }} />
+                <Chip label="DISCONNECTED" size="small" color="error" />
               </Box>
 
               <Divider />
@@ -96,7 +96,7 @@ export default function LiveMachineStatus() {
               <Box sx={{ display: 'flex', justifyContent: 'space-between', gap: 2, alignItems: 'center' }}>
                 <Typography variant="body2">Last Activity</Typography>
                 <Typography variant="body2" sx={{ fontWeight: 500 }}>
-                  2 mins ago
+                  7hrs ago
                 </Typography>
               </Box>
             </Box>
