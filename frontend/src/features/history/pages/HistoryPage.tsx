@@ -6,9 +6,9 @@ export default function HistoryPage() {
   const [searchDate, setSearchDate] = useState('');
 
   const data = [
-    { id: 1, date: '2024-01-15', change: '↑ 24% from yesterday', bottles: 245, scantrons: 82 },
-    { id: 2, date: '2024-01-14', change: '↑ 8% from yesterday', bottles: 198, scantrons: 66 },
-    { id: 3, date: '2024-01-13', change: '↑ 16% from yesterday', bottles: 312, scantrons: 104 },
+    { id: 1, date: '2026-06-15', change: '↑ 70% from yesterday', bottles: 51, scantrons: 17 },
+    { id: 2, date: '2026-06-14', change: '↑ 57% from yesterday', bottles: 30, scantrons: 10 },
+    { id: 3, date: '2026-06-13', change: '---', bottles: 15, scantrons: 5 },
   ];
 
   const filteredData = searchDate ? data.filter((row) => row.date === searchDate) : data;

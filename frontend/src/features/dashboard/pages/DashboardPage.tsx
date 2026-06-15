@@ -14,10 +14,10 @@ export default function DashboardPage() {
         </Grid>
 
         <Grid item xs={12} md={6}>
-          <KPICard title="Bottles Inserted Today" value={245} icon={<Inventory2Icon fontSize="large" />} color="primary" />
+          <KPICard title="Bottles Inserted Today" value={51} icon={<Inventory2Icon fontSize="large" />} color="primary" />
         </Grid>
         <Grid item xs={12} md={6}>
-          <KPICard title="Scantron Dispensed Today" value={82} icon={<ArticleIcon fontSize="large" />} color="success" />
+          <KPICard title="Scantron Dispensed Today" value={17} icon={<ArticleIcon fontSize="large" />} color="success" />
         </Grid>
 
         <Grid item xs={12}>
